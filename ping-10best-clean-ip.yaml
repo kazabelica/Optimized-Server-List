@@ -1,0 +1,8 @@
+proxies:
+  - {"blackListed":false,"cipher":"aes-256-cfb","name":"NL_____AzadNet_192","password":"wjTugX3ZtHMB9c3Z","ping":600,"port":9057,"server":"213.183.59.191","type":"ss","udp":true}
+  - {"blackListed":false,"cipher":"aes-256-cfb","name":"NL_____AzadNet_194","password":"wjTugX3ZtHMB9c3Z","ping":612,"port":9057,"server":"213.183.59.209","type":"ss","udp":true}
+  - {"blackListed":false,"cipher":"chacha20-ietf-poly1305","name":"SS_31_6384","password":"G!yBwPWH3Vao","ping":637,"port":"808","server":"93.186.201.158","source":"ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@93.186.201.158:808#Germany%20%E2%84%B9%EF%B8%8F%20%40fast_ss","type":"ss"}
+  - {"blackListed":false,"cipher":"aes-256-gcm","name":"IT____Rome__AzadNet","password":"hg49$WH8943g3","ping":645,"port":18760,"server":"84.33.193.79","type":"ss","udp":true}
+  - {"blackListed":false,"cipher":"aes-256-gcm","name":"FR____Paris__AzadNet","password":"XKFKl2rULjIp74","ping":646,"port":8009,"server":"172.99.189.204","type":"ss","udp":true}
+  - {"alterId":0,"blackListed":false,"cipher":"auto","name":"_SSRSUB-V16-_____suo_yt_ssrsub","ping":656,"port":37667,"server":"5.183.102.34","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"66f93c8f-4458-41d3-e447-f0b57d893527"}
+  - {"blackListed":false,"cipher":"chacha20-ietf-poly1305","name":"SS_11_1386","password":"mMd6MnslsrdP","ping":662,"port":"2324","server":"92.223.79.5","source":"ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptTWQ2TW5zbHNyZFA=@92.223.79.5:2324#%F0%9F%87%AE%F0%9F%87%B9+Italy","type":"ss"}
