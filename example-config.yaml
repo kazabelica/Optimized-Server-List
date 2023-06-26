@@ -1,0 +1,31 @@
+port: 7890 # HTTP(S) 代理服务器端口
+socks-port: 7891 # SOCKS5 代理端口
+
+proxy-providers:
+ 
+  PingAll:
+    type: http
+    url: "https://raw.githubusercontent.com/kazabelica/Optimized-Server-List/main/ping-all.yaml"
+    interval: 600
+    path: ./ping-all.yaml
+    filter: ((VMESS)|(TROJAN))
+    health-check:
+      enable: true
+      interval: 300
+      lazy: false
+      url:  http://cp.cloudflare.com
+    
+proxy-groups:
+
+
+  - name: UrlTest
+    type: url-test
+    interval: 100
+    tolerance: 500
+    lazy: true
+    url: http://cp.cloudflare.com
+    use:
+        - PingAll
+    
+rules:
+    - MATCH,UrlTest
